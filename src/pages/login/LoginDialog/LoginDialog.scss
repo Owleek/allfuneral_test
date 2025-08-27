@@ -1,0 +1,38 @@
+.LoginDialog {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9fafb;
+  padding: 20px;
+
+  &__content {
+    width: 100%;
+    max-width: 400px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    padding: 32px;
+  }
+
+  &__logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+  }
+}
+
+.LoginForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  &__input {
+    margin-bottom: 16px;
+  }
+
+  &__button {
+    width: 100%;
+    margin-top: 8px;
+  }
+}

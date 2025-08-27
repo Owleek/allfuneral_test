@@ -1,9 +1,9 @@
 import type { SVGProps } from 'react';
-import { iconRegistry, type IconId } from './registry';
+import { iconRegistry, type IconId } from '../../assets/icons/registry/registry';
 
 export type IconProps = {
   id: IconId;
-  size?: number | string; // px если число
+  size?: number | string; // px if number
   title?: string;
 } & Omit<SVGProps<SVGSVGElement>, 'id'>;
 
